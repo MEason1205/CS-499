@@ -1,26 +1,9 @@
-# Database Design and Security
-
-## 📄 Artifact Description
-
-This artifact is the database-backed version of the Contact Management System developed during my CS-320 course. It includes a MySQL backend and Java interface for storing and managing contact data. Initially, the system relied on hardcoded SQL strings and offered limited protections for sensitive data.
-
-## 🎯 Justification for Inclusion
-
-I selected this artifact to demonstrate my skills in secure and normalized database design. Enhancements included:
-- Replacing raw SQL strings with parameterized queries to prevent SQL injection.
-- Implementing role-based access control (RBAC).
-- Normalizing the schema to reduce redundancy.
-- Adding encryption for sensitive fields.
-These changes significantly improved the application’s security, maintainability, and efficiency.
-
-## 🎓 Course Outcomes Reflection
-
-This artifact supports several CS-499 outcomes:
-- **Security mindset:** Introduced RBAC and encrypted sensitive data.
-- **Efficient database solutions:** Normalized the schema and improved query indexing.
-- **Innovative tools and techniques:** Used prepared statements and Java connectors effectively.
-- **Professional documentation:** Documented schema changes and database access methods.
-
-## 🔁 Process Reflection
-
-Refactoring the codebase to support parameterized queries required separating business logic from SQL execution. Troubleshooting schema normalization issues and role logic helped me gain deeper insight into secure, scalable database design. These experiences are vital as I pursue a career in secure software and backend systems.
+CS 499 Milestone Two Narrative
+Artifact Description
+The artifact I selected for this milestone is my C++ Reverse Software Engineering project, originally created during the Fall 2024 semester for CS-410. This console-based application simulates basic user interaction and access control through a menu-driven interface. Users log in with credentials, navigate options, and perform placeholder actions. Its initial design included hardcoded authentication and minimal input validation.
+Justification for Inclusion
+I chose this artifact because it highlights core skills in software design and engineering, especially in the context of secure coding and refactoring legacy code. By enhancing this project, I showcase my ability to implement modern security practices, such as password hashing, input validation, and modular class structures, and improve maintainability and scalability. The refined authentication module, clear separation of concerns, and robust error handling demonstrate practical applications of SOLID principles and secure development standards, making this a strong portfolio piece.
+Course Outcomes Reflection
+In Module One, I planned to meet outcomes related to designing secure computing solutions and developing a security mindset. Through these enhancements, I have achieved strong competency in those areas by implementing password hashing, input sanitation, and structured logging. Additionally, I refined algorithmic processes for user verification, supporting the outcome of evaluating computing solutions with proper trade-offs. Remaining course outcomes I aim to demonstrate include professional-quality communication and building collaborative environments, which I will address by documenting my code thoroughly and seeking peer feedback before the final ePortfolio publication.
+Process Reflection
+Enhancing this artifact taught me valuable lessons in refactoring and secure design. As I replaced hardcoded credentials with a salted hash mechanism, I faced challenges integrating a cryptographic library and ensuring cross-platform compatibility. Breaking up monolithic functions into smaller classes required careful planning to preserve existing functionality while adding tests. Writing unit tests for the new authentication flow improved my confidence but necessitated additional mocking for input/output streams. Overall, this process deepened my understanding of balancing security, usability, and code maintainability.
