@@ -46,6 +46,12 @@ This capstone demonstrates:
 
 ---
 
+### 💾 Code Artifacts
+
+- Java and C++ files are included in the repository. See the [README.md](README.md) for compile/run instructions.
+
+---
+
 ## 🎥 Code Review Video
 
 Coming Soon — A video walkthrough of my enhanced code and project reflections.
