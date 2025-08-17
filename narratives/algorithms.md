@@ -1,21 +1,10 @@
-# Algorithms and Data Structures
+CS 499 Milestone Three Narrative
+Artifact Description
+The artifact I selected for this milestone is my Contact Management System from CS 320: Software Testing, Automation, and Quality Assurance, originally developed in Spring 2023. It is a Java application (with unit tests in JUnit) that provides Create, Read, Update, and Delete operations for Contacts, Tasks, and Appointments, storing records in in memory collections and enforcing field‐length and format constraints.
+Justification for Inclusion
+I chose this artifact because it highlights my proficiency with core data structures and algorithmic optimization, skills vital for any computer science professional. In my enhancement, I replaced the original ArrayList based storage with HashMap<String, T> lookups to reduce CRUD time complexity from O(n) to O(1). I also integrated a lightweight benchmarking framework (using System.nanoTime()) to measure performance across increasing dataset sizes. These improvements demonstrate my ability to evaluate and apply the right algorithmic principles and measure their real‐world impact.
+Course Outcomes Reflection
+In Module One, I set out to demonstrate the outcome “Design and evaluate computing solutions using algorithmic principles while managing trade offs.” By selecting and justifying the use of hash maps, and by balancing memory overhead against lookup speed, I have fully met that goal. I also leveraged innovative tools and techniques to build a benchmark suite, aligning with the outcome of using well founded, innovative computing practices. Remaining outcomes to address include “Design, develop, and deliver professional quality communications,” which I will strengthen by polishing my benchmark reports, and “Employ strategies for building collaborative environments,” which I will support by soliciting further peer reviews on my code.
+Process Reflection
+Working through this enhancement taught me the practical nuances of algorithmic trade offs: unordered_map in Java gives average case O(1) performance but uses more memory than lists, and its worst case behavior depends on hash distribution. Crafting reliable benchmarks was challenging due to variability in JVM warmup and garbage collection; I overcame this by discarding outlier runs and averaging multiple iterations. I also learned to structure timing code cleanly so it doesn’t pollute business logic. Overall, this process deepened my skills in data‐structure selection, performance measurement, and systematic problem solving—key competencies for my future career in software engineering.
 
-## 📄 Artifact Description
-
-This artifact is a contact management system developed in CS-320: Software Testing, Automation, and Quality Assurance. The system was originally implemented using Java `ArrayList` and `LinkedList` collections to store contacts, tasks, and appointments. Basic CRUD operations were supported and validated with unit tests using JUnit.
-
-## 🎯 Justification for Inclusion
-
-I chose this artifact because it allowed me to demonstrate improvements in algorithmic performance and data structure selection. I replaced `ArrayList` storage with `HashMap<String, T>` for faster O(1) lookups and integrated performance benchmarking using `System.nanoTime()` to measure execution time across large datasets. These changes demonstrate my ability to optimize algorithms and quantify real-world efficiency gains.
-
-## 🎓 Course Outcomes Reflection
-
-This artifact supports several CS-499 outcomes:
-- **Design and evaluation of computing solutions:** Upgraded from linear to constant-time complexity for CRUD operations.
-- **Use of innovative computing techniques:** Integrated lightweight benchmarking to evaluate performance.
-- **Managing trade-offs:** Balanced memory usage vs. speed in choosing hash-based structures.
-- **Professional-quality documentation:** Provided inline comments and benchmark logs to support analysis.
-
-## 🔁 Process Reflection
-
-I learned how critical it is to choose the right data structure for performance and scalability. Managing hash collisions and JVM variability in benchmarking required me to average runs and separate benchmarking from core logic. These technical challenges improved my understanding of data structure behavior and trade-offs in real-world scenarios.
