@@ -1,0 +1,79 @@
+Introduction (2–3 minutes)
+
+Hello, my name is Michelle Eason, and this is my final submission for the Computer Science Capstone.
+
+In this video, I’ll walk you through my GitHub Pages portfolio, which showcases three core artifacts that represent my growth in software design and engineering, algorithms and data structures, and database systems. These projects have been refined and professionally documented to demonstrate both technical ability and a deep understanding of modern development practices.
+
+For each artifact, I’ll explain its original context, the enhancements I implemented during the capstone, and how they align with the course learning outcomes. I’ll close by reflecting on my growth throughout the program in a professional self-assessment.
+
+Let’s begin with the first artifact.
+
+Artifact One: Software Design and Engineering (8–10 minutes)
+
+The first artifact I chose comes from CS-410: Reverse Software Engineering. Originally, it was a basic console application simulating user authentication with hardcoded usernames and passwords.
+
+The original code violated key principles like single-responsibility and lacked secure coding practices. All logic was in one place, there was no input validation, and credentials were stored in plain text.
+
+To enhance this artifact, I restructured the application using object-oriented design, applying the single-responsibility principle through a dedicated UserAuthenticator class. I also added:
+•	SHA-256 password hashing
+•	A secure configuration system to store credentials
+•	Robust input validation
+•	Exception handling
+•	Inline code documentation with meaningful comments
+
+These enhancements directly align with software engineering outcomes like modular design, maintainability, and secure coding practices. My GitHub repository now shows a much more professional, production-like system that’s easier to extend and safer to use.
+
+Artifact Two: Algorithms and Data Structures (8–10 minutes)
+
+The second artifact originated in CS-320: Software Testing and Quality Assurance. It was a contact management system that relied on basic arrays and linked lists to manage contacts, tasks, and appointments.
+
+Originally, the system was functionally complete but not efficient. Search operations were linear, and the separation between logic layers was unclear.
+
+My improvements focused on both efficiency and structure:
+•	I replaced arrays and lists with hash maps for faster lookups (O(1) time)
+•	Used vectors instead of fixed-size arrays for flexibility
+•	Separated data handling from the business logic
+•	Integrated benchmarking tools using System.nanoTime() to analyze speed and memory use across data scales
+
+These changes demonstrate mastery in algorithm optimization, data structures, and performance analysis—essential skills in computer science and software development.
+
+Artifact Three: Databases (8–10 minutes)
+
+This artifact is the database-integrated version of the same contact management system, also developed during CS-320.
+
+The original implementation used direct SQL queries with string concatenation, which left it vulnerable to SQL injections and lacked a structured schema or security model.
+
+For the capstone, I implemented:
+•	Prepared statements for all database interactions
+•	Encryption for storing sensitive fields
+•	Normalization of the database schema to reduce redundancy
+•	Role-based access control (RBAC) to limit permissions based on user roles
+•	Try-catch wrappers around all database operations to improve error handling and stability
+
+This artifact now showcases secure, professional use of relational databases with real-world protection features, meeting course objectives in database design, query optimization, and secure development.
+
+Professional Self-Assessment (3–5 minutes)
+
+Over the course of this program, I’ve grown from a novice coder into a confident and well-rounded developer. When I began, I had little experience with topics like secure coding, modular design, or efficient data handling.
+
+Today, I can confidently analyze legacy code, redesign it using modern architecture, and apply real-world practices like authentication, benchmarking, and SQL protection.
+
+Through this capstone, I’ve sharpened my strengths in:
+•	Secure system design
+•	Algorithmic thinking
+•	Modular and testable architecture
+
+And I’ve also identified growth areas, such as:
+•	Collaborative development in teams
+•	Open-source contributions
+•	Learning emerging technologies like cloud deployment
+
+This reflection has given me clarity and motivation for the next chapter in my career as a software engineer.
+
+Closing (1–2 minutes)
+
+I’ve demonstrated growth and enhancements across three critical areas, software engineering, data structure optimization, and secure database development. These are backed by code samples, technical documentation, and professional analysis.
+
+I invite you to explore my GitHub repository and Pages site, which are included in this submission.
+
+Thanks again, and I’m excited to continue building and learning as a computer science professional.
