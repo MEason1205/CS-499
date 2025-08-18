@@ -1,0 +1,17 @@
+CSS-499 Milestone Four Narrative
+
+Artifact Description
+
+The artifact I selected for my database enhancement is a contact management system that was originally developed during my CS-320 course. This application allows users to create, view, update, delete contact records and store them in a relational database using SQL. It was first created as part of a final project, demonstrating CRUD (Create, Read, Update, Delete) operations, user input validation, and a simple interface for database interaction. I chose this artifact because it represents a foundational database-driven application and offered clear opportunities for enhancement in areas such as security, query efficiency, and structure.
+
+Justification for Inclusion
+
+I chose this artifact for my ePortfolio because it shows my skills in working with relational databases, writing SQL queries, and integrating those queries into a functional application. My enhancements focused on replacing hardcoded SQL statements with parameterized queries to prevent SQL injection attacks, introducing role-based access control (RBAC) to restrict database access based on user type, and improving the data normalization within the schema to ensure consistency and reduce redundancy. These changes improved the security and maintainability of the system, directly demonstrating my ability to design secure and efficient database solutions.
+
+Course Outcomes Reflection
+
+In Module One, I set out to meet several course outcomes with this enhancement, particularly the outcome related to “demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.” I believe I have made significant progress toward this goal through my use of security best practices, SQL optimization, and thoughtful system design. I also continue to develop my ability to communicate these changes professionally through documentation and version control tools.
+
+Process Reflection
+
+The enhancement process was both challenging and rewarding. One of the main challenges I encountered was retrofitting parameterized queries into an older codebase that had a tight coupling between logic and database access. This required a restructuring of the database interface to abstract query execution away from business logic, which in turn improved the modularity of the application. I also had to troubleshoot data mismatches due to poor normalization in the original database schema. However, through this work, I gained a much deeper understanding of relational schema design, query optimization, and security practices in databases. These are skills that I know will be critical in my career as a software developer focused on secure application design.
